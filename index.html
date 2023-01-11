@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
+    <!-- <script>L_DISABLE_3D = false;</script> -->
+
+    <!-- <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    /> -->
+
+    <title>Frontend Mentor | IP Address Tracker</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+
+
+    <div class="container">
+      <div class="heroSection">
+        <h1 class="heading"> IP Address Tracker</h1>
+        <div class="input">
+          <input type="search" name="input" id="input" 
+          placeholder="Search for any IP address or domain"   >
+          <button class="submit" id="btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="14"><path fill="none" stroke="#FFF" stroke-width="3" d="M2 1l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="contents">
+        <div class="ipAddress heading-2">
+          <h4>Ip Address</h4>
+          <p id="ip">192.168.0.1</p>
+        </div>
+        <div class="location border heading-2">
+          <h4>Location</h4>
+          <p id="loc">Mumbai</p>
+        </div>
+
+        <div class="timezone border heading-2">
+          <h4>Timezone</h4>
+          <p id="timezone">IST - 05:00</p>
+        </div>
+
+        <div class="isp border heading-2">
+          <h4>Isp</h4>
+          <p id="isp">SpaceX</p>
+        </div>
+      </div>
+      <div id="map" ></div>
+    </div>
+
+    
+ <!-- Tracker Search for any IP address or domain IP Address Location
+    Timezone UTC
+    <!-- add offset value dynamically using the API -->
+    <!-- ISP --> 
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>. -->
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
