@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/FaisalKhan2000/Ip-Address-Tracker)
-- Live Site URL: [](https://ip-address-tracker-faisalkhan.netlify.app/)
+- Solution URL: ["github"](https://github.com/FaisalKhan2000/Ip-Address-Tracker)
+- Live Site URL: ["site"](https://ip-address-tracker-faisalkhan.netlify.app/)
 
 ## My process
 
